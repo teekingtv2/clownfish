@@ -13,7 +13,7 @@
   padding: 25px 20px;
 }
 .shadow-box-inner {
-  background: #7890ec;
+  background: #eee;
   border: 3px solid #000;
   border-radius: 0.5rem;
   position: absolute;
@@ -37,6 +37,8 @@
 .logo-img {
   max-width: 150px;
   max-height: 90px;
+  border-radius: 50%;
+  border: 3px solid #feb71d;
 }
 .btn-width {
   width: 300px;
@@ -47,13 +49,13 @@
   font-size: 20px;
 }
 .buy-btn {
-  background: #061183;
-  color: #fff !important;
+  background: #feb71d;
+  color: #000 !important;
 }
 .buy-btn:hover {
   background: #000;
-  color: #7890ec !important;
-  border: 3px solid #7890ec;
+  color: #feb71d !important;
+  border: 3px solid #feb71d;
   font-weight: bold;
 }
 
@@ -76,9 +78,9 @@
   scale: 1.11;
   transition: 0.3s ease-in;
 }
-.navbar-toggler-icon {
-  color: #fff;
-  background: #000;
+.navbar-toggler {
+  color: #feb71d;
+  /* background: #fff; */
 }
 
 /* Banner */
@@ -95,12 +97,7 @@
   align-items: center;
   gap: 60px;
 }
-.section-2-bg {
-  background: url(/assets/section-2-bg.avif);
-}
-.section-2 {
-  background: #1d2d6b6e;
-}
+
 .banner-title {
   padding: 0px 50px;
   max-width: 300px !important;
@@ -127,7 +124,7 @@
   }
   .menu-container {
     flex-direction: column;
-    background: #7890ec !important;
+    background: #feb71d !important;
   }
   .shadow-box-inner {
     border: 3px solid #000;
