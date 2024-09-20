@@ -3146,6 +3146,12 @@ a.link-demo--visit {
 .swing2 {
   animation: swing 4s 0s forwards infinite;
 }
+.swingX {
+  animation: swingX 2s 0s forwards infinite;
+}
+.swingX2 {
+  animation: swingX 4s 0s forwards infinite;
+}
 .swingSlow {
   animation: swingSlow 2s 0s forwards infinite;
 }
@@ -3159,6 +3165,17 @@ a.link-demo--visit {
   }
   100% {
     transform: translateY(-20px);
+  }
+}
+@keyframes swingX {
+  0% {
+    transform: translateX(-20px);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(-20px);
   }
 }
 
