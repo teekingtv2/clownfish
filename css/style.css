@@ -200,10 +200,16 @@ body {
     flex-direction: column;
     background: #feb71d !important;
   }
+  .shadow-box {
+    padding: 20px 10px;
+  }
   .shadow-box-inner {
     border: 3px solid #000;
     top: -8px;
     left: -8px;
+  }
+  .logo-width {
+    width: 130px !important;
   }
   .logo-img {
     max-width: 80px;
