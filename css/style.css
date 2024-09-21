@@ -126,9 +126,9 @@ body {
   height: 300px;
   width: 300px;
   border-radius: 20%;
-  border: 6px solid;
+  border: 6px solid #000;
   /* box-shadow: 7px 7px 9px #3a28008c; */
-  box-shadow: 7px 7px 9px 5px #3a2800b3;
+  box-shadow: 7px 7px 6px #6445028e;
 }
 .middle-banner-img {
   display: flex;
