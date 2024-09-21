@@ -284,7 +284,7 @@ body {
     padding: 20px;
   }
   .about-text-container {
-    width: 95%;
+    width: 98%;
     gap: 30px;
     align-items: flex-end;
   }
@@ -292,6 +292,11 @@ body {
     height: max-content;
     padding: 20px;
     margin-bottom: 10px;
+  }
+  .ca-container {
+    width: 95%;
+    display: flex;
+    justify-content: start;
   }
 
   .top-text-container {
