@@ -159,8 +159,8 @@ body {
   }
   .shadow-box-inner {
     border: 3px solid #000;
-    top: -4px;
-    left: -4px;
+    top: -8px;
+    left: -8px;
   }
   .logo-img {
     max-width: 80px;
