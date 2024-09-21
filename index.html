@@ -141,6 +141,10 @@
               <div class="shadow-box btn-width swingSlow">
                 <a class="navbar-brand shadow-box-inner buy-btn" href="/"> Buy $MARU on Uniswap</a>
               </div>
+
+              <div class="ca-container">
+                <div id="ca" style="color: #bbb" class="ca-btn">xxxxxx...</div>
+              </div>
             </div>
           </div>
         </div>
@@ -263,6 +267,21 @@
     <script src="js/script5152.js?ver=1.0"></script>
     <script>
       new WOW().init();
+    </script>
+
+    <script>
+      const ca = '0x66jhy76h4533e31f2AfKJ7C4a61A48Eda38C4ght';
+      const caDiv = document.querySelector('#ca');
+      caDiv.innerText = `CA: ${ca.substr(0, 10)}...${ca.substr(30, 42)} (tap to copy)`;
+      caDiv.addEventListener('click', function () {
+        const input = document.createElement('input');
+        input.value = ca;
+        document.body.appendChild(input);
+        input.select();
+        document.execCommand('copy');
+        document.body.removeChild(input);
+        alert(`Contract address successfully copied`);
+      });
     </script>
   </body>
 </html>
