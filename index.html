@@ -42,7 +42,8 @@
   </head>
 
   <body class="theme-light">
-    <header class="header" style="background: url(/assets/banner-bg.avif)">
+    <!-- <header class="header" style="background: url(/assets/banner-bg.avif)"> -->
+    <header class="header" style="background: #000000">
       <div class="container">
         <nav class="header__navbar navbar navbar-expand-lg header-flex" style="height: 100px">
           <div class="logo-width">
@@ -85,20 +86,23 @@
           </div>
         </nav>
       </div>
-      <section class="section-hero" style="background-color: transparent">
-        <div class="section-hero__container container">
+      <section
+        class="section-hero"
+        style="background: #000000; border-bottom: 0px solid #684701 !important"
+      >
+        <div class="section-hero__container container" style="border: 0px !important">
           <div class="section-hero__wrapper banner-flex">
             <div class="section-hero__content banner-upper">
               <div style="display: flex; flex-direction: column; gap: 10px">
                 <h2
-                  class="section-description__title nft-h2 wow animate__animated animate__fadeIn"
+                  class="section-description__title nft-h4 wow animate__animated animate__fadeIn"
                   style="color: #feb71d"
                 >
                   Hello Degen!
                 </h2>
                 <h1
                   class="section-hero__title nft-h2 wow animate__animated animate__fadeInLeft banner-title"
-                  style="text-align: center; width: 100%"
+                  style="text-align: center; width: 100%; color: #bbb"
                 >
                   <marquee behavior="" direction="">
                     I am MARU, The World's Most Popular Cat</marquee
@@ -117,7 +121,7 @@
                 <img src="./assets/img4.jpg" alt="" class="swingX2" />
               </div>
 
-              <div class="shadow-box btn-width">
+              <div class="shadow-box btn-width swingSlow">
                 <a class="navbar-brand shadow-box-inner buy-btn" href="/"> Buy $MARU on Uniswap</a>
               </div>
             </div>
@@ -178,7 +182,7 @@
       </section>
     </header>
 
-    <main class="main m-0 p-0 section-2-bg">
+    <main class="main m-0 p-0 section-2-bg" style="border: 0px !important">
       <!-- <section class="section-numbers" id="ecosystem"></section>
         <div class="section-numbers__container container">
           <h2 class="section-numbers__title nft-h2">Join other members</h2>
@@ -212,31 +216,54 @@
         </div>
       </section> -->
 
-      <section class="section-description" id="about">
+      <section class="video-section">
+        <div class="video-container">
+          <p>Watch <span style="color: #bbb">Project</span> Trailer</p>
+          <iframe
+            src="https://www.youtube.com/embed/z_AbfPXTKms?si=oS0ZewDvRdqZ8GlW"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section
+        class="section-description"
+        id="about"
+        style="background: #000; color: #888; border-top: 0px solid #684701 !important"
+      >
         <div class="section-description__container container">
           <div class="section-description__wrapper row">
             <div class="section-description__column col-lg-6 col-md-10 col-12">
-              <h2 class="section-description__title nft-h2 wow animate__animated animate__fadeIn">
-                Maru is the ultra-bullish alpha
-              </h2>
-              <p
-                class="section-description__text animate__animated animate__fadeIn animate__delay-2s"
-              >
-                Imagine a world where the internet's most famous cat, Maru, meets the wild ride of
-                crypto — that's $MARU Token! Inspired by Maru's hilarious obsession with boxes and
-                his ability to brighten anyone's day, Maru Token is the ultimate meme coin for those
-                who love fun, community, and bullish vibes. Whether you're here for the laughs or
-                looking for the next big crypto hit, Maru Token is ready to take you on an
-                unforgettable journey.
-              </p>
-              <p class="section-description__text">
-                Now for the ultra-bullish alpha: All $NEIRO holders (Cabal and CTO alike), get ready
-                for your treat—Maru is dropping straight into your wallets as an exclusive airdrop!
-                Don't miss the ride
-              </p>
+              <div class="about-text">
+                <h2
+                  class="section-description__title nft-h2 wow animate__animated animate__fadeIn"
+                  style="color: #bbb"
+                >
+                  Maru is the ultra-bullish alpha
+                </h2>
+                <p
+                  class="section-description__text animate__animated animate__fadeIn animate__delay-2s"
+                >
+                  Imagine a world where the internet's most famous cat, Maru, meets the wild ride of
+                  crypto — that's $MARU Token! Inspired by Maru's hilarious obsession with boxes and
+                  his ability to brighten anyone's day, Maru Token is the ultimate meme coin for
+                  those who love fun, community, and bullish vibes. Whether you're here for the
+                  laughs or looking for the next big crypto hit, Maru Token is ready to take you on
+                  an unforgettable journey.
+                </p>
+                <p class="section-description__text">
+                  Now for the ultra-bullish alpha: All $NEIRO holders (Cabal and CTO alike), get
+                  ready for your treat—Maru is dropping straight into your wallets as an exclusive
+                  airdrop! Don't miss the ride
+                </p>
+              </div>
             </div>
             <div
-              class="banner-img-container animate__animated animate__slideInUp animate__delay-1s col-lg-5 col-md-10 col-12"
+              class="banner-img-container animate__animated animate__slideInUp animate__delay-1s col-lg-5 col-md-10 col-12 img-box"
             >
               <img src="./assets/img3.jpg" alt="" class="swing" />
               <img src="./assets/img1.jpg" alt="" class="swingX2" />
@@ -246,7 +273,10 @@
       </section>
     </main>
 
-    <footer class="footer" style="background-color: black">
+    <footer
+      class="footer"
+      style="background-color: black; border-top: 2px solid #684701 !important"
+    >
       <div class="footer__container container">
         <div class="row">
           <div class="col-12">
