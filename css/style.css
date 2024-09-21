@@ -126,7 +126,7 @@ body {
   height: 300px;
   width: 300px;
   border-radius: 20%;
-  border: 6px solid #000;
+  border: 4px solid #000;
   /* box-shadow: 7px 7px 9px #3a28008c; */
   box-shadow: 7px 7px 6px #6445028e;
 }
@@ -145,7 +145,7 @@ body {
 .video-container {
   max-width: 600px;
   background: #121212;
-  border: 1px solid #666;
+  border: 1px solid #555;
   padding: 30px;
   display: flex;
   align-items: center;
@@ -174,7 +174,7 @@ body {
 
 .about-text {
   border-radius: 5px;
-  border: 1px solid #666;
+  border: 1px solid #333;
   padding: 20px;
   box-shadow: 4px 4px 7px #414040;
   margin-right: 30px;
