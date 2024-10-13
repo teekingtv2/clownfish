@@ -118,8 +118,8 @@ body {
   /* width: 40%; */
 }
 .banner-img-container img {
-  height: 260px;
-  width: 260px;
+  /* height: 260px; */
+  width: 500px;
   border-radius: 20%;
   border: 4px solid #000;
   /* box-shadow: 7px 7px 9px #3a28008c; */
