@@ -104,7 +104,7 @@ body {
   width: 100%;
   padding: 0px !important;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 60px;
@@ -112,10 +112,10 @@ body {
 
 .banner-img-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 20px;
   align-items: center;
-  width: 40%;
+  /* width: 40%; */
 }
 .banner-img-container img {
   height: 260px;
@@ -130,15 +130,17 @@ body {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  align-items: flex-end;
+  align-items: center;
 }
 .about-text {
+  background: #ee9c0a;
   height: max-content;
   border-radius: 5px;
   border: 1px solid #333;
   padding: 20px;
   box-shadow: 4px 4px 7px #414040;
   color: #999;
+  margin-bottom: 20px !important;
 }
 .ca-container {
   width: 100%;
@@ -157,7 +159,7 @@ body {
   width: 85%;
 }
 .top-text {
-  font-family: 'Dela Gothic One', cursive;
+  font-family: "Dela Gothic One", cursive;
   font-weight: 400;
   line-height: 23px;
 }
@@ -219,12 +221,28 @@ body {
   font-size: 40px;
 }
 
+.buy-btn-cont {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
 @media (max-width: 500px) {
+  .buy-btn-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .btn-width {
+    width: 250px;
+  }
+
   .hide-on-mobile {
     display: none !important;
   }
   .menu-width {
-    height: 180px;
+    height: 150px;
     z-index: 100;
   }
   .menu-container {
@@ -307,7 +325,7 @@ body {
   }
 
   .top-text {
-    font-family: 'Dela Gothic One', cursive;
+    font-family: "Dela Gothic One", cursive;
     font-weight: 400;
     line-height: 23px;
   }
