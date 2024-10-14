@@ -3,6 +3,10 @@
 body {
   /* font-family: Stopbuck !important;
   src: url(../assets/stopbuck/Stopbuck.ttf); */
+  background: url("../img/water.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .header-flex {
   display: flex;
@@ -15,10 +19,15 @@ body {
 
 .shadow-box {
   background-color: #755103;
+  /* background-color: transparent;
+  border: 4px solid #755103; */
   border-radius: 0.5rem;
   position: relative;
   /* inset: auto -0.6rem -0.5rem auto; */
   padding: 25px 20px;
+}
+.shadow-box:hover {
+  background: transparent !important;
 }
 .shadow-box-inner {
   background: #eee;
@@ -61,7 +70,7 @@ body {
   color: #000 !important;
 }
 .buy-btn:hover {
-  background: #000;
+  background: transparent;
   color: #feb71d !important;
   border: 3px solid #feb71d;
   font-weight: bold;
@@ -119,11 +128,11 @@ body {
 }
 .banner-img-container img {
   /* height: 260px; */
-  width: 500px;
+  width: 550px;
   border-radius: 20%;
-  border: 4px solid #000;
+  /* border: 4px solid #000; */
   /* box-shadow: 7px 7px 9px #3a28008c; */
-  box-shadow: 7px 7px 6px #6445028e;
+  /* box-shadow: 7px 7px 6px #6445028e; */
 }
 .about-text-container {
   width: 60%;
@@ -133,7 +142,7 @@ body {
   align-items: center;
 }
 .about-text {
-  background: #ee9c0a;
+  border: 1px dashed #ee9c0a !important;
   height: max-content;
   border-radius: 5px;
   border: 1px solid #333;
