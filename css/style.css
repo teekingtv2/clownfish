@@ -143,11 +143,13 @@ body {
 }
 .about-text {
   border: 1px dashed #ee9c0a !important;
+  /* box-shadow: 7px 7px 9px #3a28008c; */
+  box-shadow: 9px 9px 10px #0000008e;
   height: max-content;
   border-radius: 5px;
   border: 1px solid #333;
   padding: 20px;
-  box-shadow: 4px 4px 7px #414040;
+  /* box-shadow: 4px 4px 7px #414040; */
   color: #999;
   margin-bottom: 20px !important;
 }
