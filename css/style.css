@@ -128,7 +128,7 @@ body {
 }
 .banner-img-container img {
   /* height: 260px; */
-  width: 550px;
+  width: 100%;
   border-radius: 20%;
   /* border: 4px solid #000; */
   box-shadow: 9px 9px 10px #0000008e;
@@ -235,7 +235,8 @@ body {
 .buy-btn-cont {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 15px;
 }
 
 @media (max-width: 500px) {
