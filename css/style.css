@@ -69,6 +69,10 @@ body {
   background: transparent;
   color: #dc8f09 !important;
   border: 3px solid #dc8f09;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 .buy-btn:hover {
   background: transparent;
